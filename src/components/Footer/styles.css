@@ -1,0 +1,151 @@
+.footer-main-div {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    min-height: 540px;
+    padding-top: 70px;
+    padding-left: 360px;
+    padding-right: 360px;
+}
+
+.footer-main-div .first-div {
+    height: 300px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-main-div .first-div .main {
+    height: 100%;
+    width: 74%;
+    display: flex;
+}
+
+.main div {
+    margin-right: 80px;
+    text-align: left;
+}
+
+.main div li {
+    margin-top: 24px;
+    text-align: left;
+    padding: 0;
+}
+
+.main div li a {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+.main div li a:hover {
+    color: #1ed760;
+}
+
+.main div ul {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main .img {
+    margin-right: 40px;
+}
+
+.main .img img {
+    width: 140px;
+    cursor: pointer;
+}
+
+.main .company-nav {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.main .community-nav {
+    margin-top: 20px;
+}
+
+.main .links-nav {
+    margin-top: 20px;
+}
+
+.footer-main-div .first-div .social-media {
+    height: 100%;
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.social-media img {
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.social-media img:hover {
+    background-color: #1ed760;
+}
+
+.footer-main-div .second-div {
+    height: 60px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-main-div .second-div .infos-nav {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+.footer-main-div .second-div .infos-nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.footer-main-div .second-div .infos-nav ul li a{
+    color: #838F88;
+    font-size: 12px;
+}
+
+.footer-main-div .second-div .infos-nav ul li a:hover {
+    color: #1ed760;
+}
+
+.footer-main-div .second-div .nation-nav img {
+    width: 30px;
+    height: 22px;
+    padding: 0;
+    margin-left: 6px;
+}
+
+.footer-main-div .second-div .nation-nav .brazil-div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: right;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.footer-main-div .second-div .nation-nav .brazil-div a {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    color: #838F88;
+}
+
+.footer-main-div .second-div .nation-nav p {
+    font-weight: 400;
+}
+
+.footer-main-div p {
+    color: #838F88;
+    font-size: 12px;
+    font-weight: 700;
+}
